@@ -1,0 +1,29 @@
+{
+  "name": "couple-video-call-signaling",
+  "version": "1.0.0",
+  "description": "Signaling server for couple's video calling website",
+  "main": "signaling-server.js",
+  "scripts": {
+    "start": "node signaling-server.js",
+    "dev": "nodemon signaling-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "webrtc",
+    "video-call",
+    "signaling",
+    "couple",
+    "websocket"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Special Place ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="heart-bg"></div>
+            <h1>❤️ Welcome to Our Special Place ❤️</h1>
+            <div class="login-form">
+                <h2>Login to Continue</h2>
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button onclick="login()">Login ❤️</button>
+                <div id="error-message"></div>
+            </div>
+        </div>
+        <!-- Add chat/call container (initially hidden) -->
+        <div class="communication-container" style="display: none;">
+            <div class="controls">
+                <button id="startCall">Start Call</button>
+                <button id="startChat">Start Chat</button>
+            </div>
+            <div id="remoteVideo"></div>
+            <div id="localVideo"></div>
+            <div id="chatBox"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
